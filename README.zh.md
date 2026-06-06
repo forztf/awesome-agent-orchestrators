@@ -1,10 +1,14 @@
-# Awesome Agent Orchestrators [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 优秀的 Agent 编排工具集 (Awesome Agent Orchestrators)
 
-A curated list of tools and frameworks for orchestrating AI coding agents.
+> 🌐 [English](README.md) | **简体中文**
 
-## Parallel Agent Runners
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Tools for running multiple coding agents simultaneously on different tasks.
+精选的 AI 编程 Agent 编排工具与框架清单。
+
+## 并行 Agent 运行器
+
+用于在不同任务上同时运行多个编程 Agent 的工具。
 
 - [1code](https://github.com/21st-dev/1code) ⭐5553 - UI for Claude Code with local and remote agent execution.
 - [agent-deck](https://github.com/asheshgoplani/agent-deck) ⭐2631 - Terminal session manager for AI coding agents.
@@ -53,9 +57,9 @@ Tools for running multiple coding agents simultaneously on different tasks.
 - [vibe-tree](https://github.com/sahithvibudhi/vibe-tree) ⭐258 - Vibe code with Claude in parallel git worktrees.
 - [vibecraft](https://github.com/rayzhudev/vibecraft) ⭐26 - An RTS-style workspace for managing AI coding agents.
 
-## Personal Assistants
+## 个人助手
 
-AI assistants that bridge to messaging platforms and other interfaces.
+桥接到消息平台和其他界面的 AI 助手。
 
 - [accomplish](https://github.com/accomplish-ai/accomplish) ⭐10840 - Open source AI coworker that lives on your desktop.
 - [aeon](https://github.com/aaronjmars/aeon) ⭐486 - Autonomous agent framework that runs unattended on GitHub Actions; 90+ skills with quality scoring, self-healing, persistent memory, and reactive triggers.
@@ -88,9 +92,9 @@ AI assistants that bridge to messaging platforms and other interfaces.
 - [zclaw](https://github.com/tnm/zclaw) ⭐2156 - The smallest possible AI personal assistant for ESP32.
 - [zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) ⭐31787 - Fast, small, and fully autonomous AI assistant infrastructure.
 
-## Multi-Agent Swarms
+## 多 Agent 协作群
 
-Systems for coordinating multiple specialized agents working together.
+用于协调多个专业 Agent 协同工作的系统。
 
 - [Agent Teams](https://github.com/777genius/agent-teams-ai) ⭐1088 - Desktop app where you give high-level commands to autonomous AI agent teams across Claude, Codex, and OpenCode, and agents handle the work themselves with inter-agent messaging, Kanban task management, and built-in code review. Supports 200+ models and 75+ LLM providers.
 - [agentsmesh](https://github.com/AgentsMesh/AgentsMesh) ⭐2186 - The AI Agent Workforce Platform. Spin up remote AI workstations (AgentPods) with PTY sandboxes and git worktree isolation, coordinate multi-agent collaboration across channels and pod bindings, and manage tasks with a built-in Kanban. Self-hostable with BYOK. Supports Claude Code, Codex CLI, Gemini CLI, Aider, and OpenCode.
@@ -120,9 +124,9 @@ Systems for coordinating multiple specialized agents working together.
 - [swarm-protocol](https://github.com/phuryn/swarm-protocol) ⭐46 - Headless coordination layer exposed as MCP server: claim work, detect file conflicts, heartbeat, and hand off tasks across agent sessions.
 - [wit](https://github.com/amaar-mc/wit) ⭐43 - Coordination protocol that locks specific functions (not files) via Tree-sitter AST parsing. Agents declare intents, acquire symbol level locks, and get conflict warnings before writing code.
 
-## Autonomous Loop Runners
+## 自主循环运行器
 
-Projects implementing the "keep running until done" pattern.
+实现「持续运行直到完成」模式的项目。
 
 - [ralph-claude-code](https://github.com/frankbria/ralph-claude-code) ⭐9258 - Autonomous AI development loop for Claude Code with intelligent exit detection.
 - [ralph-orchestrator](https://github.com/mikeyobrien/ralph-orchestrator) ⭐2917 - Hat-based orchestration that keeps agents in a loop until done.
@@ -131,3 +135,9 @@ Projects implementing the "keep running until done" pattern.
 - [Dex](https://github.com/francescoalemanno/dex) ⭐12 - Structured Ralph orchestrator with human-gated planning, programmatic task tracking, parallel multi-reviewer code review, automatic retries with backoff, and autonomous dead-end-aware research loops inspired by Karpathy's autoresearch; supports 7 CLI backends and ships cross-platform binaries.
 - [toryo](https://github.com/JesseRWeigel/toryo) ⭐9 - Intelligent agent orchestrator with trust-based delegation, quality ratcheting (git commit/revert), and Ralph Loop retries. Chains Claude Code, Aider, Gemini CLI, Ollama.
 - [wreckit](https://github.com/mikehostetler/wreckit) ⭐128 - Run Ralph Wiggum Loop over your roadmap.
+
+---
+
+📊 每个仓库后的 ⭐ 数字由 [`scripts/fetch_stars.py`](scripts/fetch_stars.py) 定期从 GitHub API 拉取。
+
+💡 提交 PR 时请保留 ⭐ 占位 — 脚本会自动更新最新数字。
